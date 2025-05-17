@@ -1,0 +1,59 @@
+.form-heading{
+    display:flex;
+    flex-direction: column;
+ 
+    width:100%;
+    max-width: 30rem;
+    gap:20px;
+    align-items: center;
+    padding:20px;
+
+}
+.input-field{
+  border:none;
+   background-color: transparent;
+   border:0.2px solid rgb(60, 59, 59);
+   border-radius: 5px;
+   height: 30px;
+   width:25rem;
+   padding:10px;
+   &:hover{
+    transform: scale(1.05)
+   }
+   
+   
+    
+
+}
+
+.mssg{
+    height:15rem;
+    width:25rem;
+}
+.send{
+    width:100%;
+    border:0.2px solid rgb(60, 59, 59);
+    background-color: transparent;
+    height:2rem;
+    border-radius: 1rem;
+     &:hover{
+    transform: scale(1.05)
+   }
+}
+.input-field{
+    width:100%;
+
+}
+@media screen and (max-width:425px){
+    .container{
+        max-width: 25rem;
+    }
+    .form-heading{
+        max-width: 25rem;
+    }
+}
+@media space and (max-width:320px){
+    .container{
+        max-width:30rem ;
+    }
+}

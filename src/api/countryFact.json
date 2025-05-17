@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125.4 million",
+    "interestingFact": "Japan has more pets than children."
+  },
+  {
+    "id": 2,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "39.6 million",
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 3,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26.8 million",
+    "interestingFact": "Australia is home to more kangaroos than people."
+  },
+  {
+    "id": 4,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1.43 billion",
+    "interestingFact": "India is the world’s largest democracy."
+  },
+  {
+    "id": 5,
+    "countryName": "Iceland",
+    "capital": "Reykjavík",
+    "population": "376,000",
+    "interestingFact": "Iceland has no mosquitoes."
+  },
+  {
+    "id": 6,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "214.3 million",
+    "interestingFact": "Brazil is home to about 60% of the Amazon Rainforest."
+  },
+  {
+    "id": 7,
+    "countryName": "Switzerland",
+    "capital": "Bern",
+    "population": "8.8 million",
+    "interestingFact": "Switzerland has not been in a war since 1815."
+  },
+  {
+    "id": 8,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": "113 million",
+    "interestingFact": "Egypt is home to the only remaining ancient wonder — the Great Pyramid of Giza."
+  },
+  {
+    "id": 9,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": "5.5 million",
+    "interestingFact": "Norway introduced salmon sushi to Japan."
+  },
+  {
+    "id": 10,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": "52 million",
+    "interestingFact": "South Korea has the world’s fastest internet speed."
+  }
+]

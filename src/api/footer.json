@@ -1,0 +1,25 @@
+[
+    {
+        "icon":"FaLocationDot",
+        "title":"Find us",
+        "details":"Pune,Maharashtra"
+
+
+    },
+    
+    {
+        "icon":"IoIosCall",
+        "title":"Call us",
+        "details":"9351029257"
+
+    },
+    
+    {
+        "icon":"IoMail",
+        "title":"Mail Us",
+        "details":"007poojarajput@gmail.com"
+
+    }
+
+
+]
