@@ -26,18 +26,22 @@ export const Header=()=>{
                     <ul className={hamMenu===true?"ham-menu-header":"header-options"}>
                         <li className="box">
                             <NavLink
-                             to="/" 
+                             to="/"
+                             onClick={()=>setHamMenu(false)} 
                              style={{textDecoration:"none"}}
                              className={({isActive})=>isActive?"active":""}>Home</NavLink>
                             </li>
                         <li  className="box">
-                            <NavLink to="/about" style={{textDecoration:"none"}}>About</NavLink>
+                            <NavLink to="/about"
+                            onClick={()=>setHamMenu(false)} 
+                             style={{textDecoration:"none"}}>About</NavLink>
                             </li>
                         <li  className="box">
-                            <NavLink to="/contact" style={{textDecoration:"none"}}>Contact</NavLink></li>
+                            <NavLink to="/contact" onClick={()=>setHamMenu(false)}  style={{textDecoration:"none"}}>Contact</NavLink></li>
                         <li  className="box">
-                            <NavLink to="/country" style={{textDecoration:"none"}}>country</NavLink></li>
+                            <NavLink to="/country" onClick={()=>setHamMenu(false)}  style={{textDecoration:"none"}}>country</NavLink></li>
                     </ul>
+                   
                 </div>
                 
 
