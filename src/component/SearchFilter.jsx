@@ -13,8 +13,13 @@ export const SearchFilter=({setSortOrder,search,setSearch})=>{
     return(
         <>
         <input type="text"className="select-box" placeholder="search" value={search} onChange={handleInput}/>
-        <button  className="btn-sort" onClick={()=>{handlesorting("asc")}}>asc</button>
-        <button  className="btn-sort" onClick={()=>{handlesorting("des")}}>des</button>
+       <button  className="btn-sort" 
+        onClick={()=>{handlesorting("asc")}}
+        ontouchstart={()=>{handlesorting("asc")}}>asc</button>
+        <button  className="btn-sort" 
+        onClick={()=>{handlesorting("des")}}
+        ontouchstart={()=>{handlesorting("asc")}}
+        >des</button>
         </>
     )
 
