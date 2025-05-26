@@ -159,7 +159,7 @@ header {
   }
   .list{
     flex-direction: column;
-    height:15rem;
+   
     width:100%;
     
     justify-content: flex-start;
